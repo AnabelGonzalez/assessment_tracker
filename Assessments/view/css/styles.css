@@ -1,0 +1,96 @@
+nav.nav{
+    background-color: #1a1c1b !important;
+    padding: 10px 0;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    color: #c1c1c1;
+}
+
+a.text-light:hover{
+    color: #45474a !important;
+    text-decoration: none !important;
+}
+
+body{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #fcfeff;
+    overflow-x: hidden;
+}
+
+
+table{
+    overflow-x: auto;
+    box-shadow: 2px 4px 10px rgba(69, 71, 74, 0.2);
+}
+
+.material-icons{
+    font-size: 1.2rem;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+/*
+.bg-info,
+.btn-info{
+    background-color: #6f8c96 !important;
+}
+
+.btn-info{
+    border: 1px solid #6f8c96 !important;
+}
+
+.text-info{
+    color: #6f8c96 !important;
+}*/
+
+footer.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #ced5d9;
+}
+
+.profile{
+    background-color: #fff !important;
+    box-shadow: 2px 4px 10px rgba(69, 71, 74, 0.2);
+    padding: 2rem;
+    margin-bottom: 100px;
+}
+
+.login-form{
+    box-shadow: 2px 4px 10px rgba(69, 71, 74, 0.2);
+    padding: 1rem;
+}
+
+.form-container{
+    width: 400px;
+    margin: 30px auto 10px auto;
+}
+
+.tabs{
+    margin: auto;
+}
+
+.left-tab,
+.right-tab{
+    width: 49%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: inset 0 0 5px rgba(69, 71, 74, 0.1);
+}
+
+.active{
+    box-shadow: inset 0 0 20px rgba(69, 71, 74, 0) !important;
+}
